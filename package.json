@@ -1,0 +1,29 @@
+{
+  "name": "sokratesgroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsherman89/SokratesGroup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsherman89/SokratesGroup/issues"
+  },
+  "homepage": "https://github.com/rsherman89/SokratesGroup#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "uglify": "^0.1.5"
+  }
+}
