@@ -13,3 +13,4 @@ git commit -m "message" - prepare added changes to be pushe up
 
 git push origin master newBranch - push changes up to github
 
+
