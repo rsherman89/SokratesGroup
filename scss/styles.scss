@@ -1,16 +1,9 @@
+@import "colours";
+@import "typography";
+@import "utils";
 
-
-$color: red;
-$redcolor: violet;
-
-body {
-	color: $color;
-}
-
-p {
-	color: $redcolor;
-
-}
-
+@import "buttons";
+@import "cards";
 
 @import "header";
+@import "footer";
