@@ -4,14 +4,14 @@ const cssnano = require('gulp-cssnano');
 
 
 gulp.task('sass', function(){
-  return gulp.src('scss/styles.scss')
+  return gulp.src('scss/style.scss')
     .pipe(sass())
     .pipe(gulp.dest('./'))
 });
 
 // Minifys .css and reload browser.
 gulp.task('mini-css', function() {
-    return gulp.src('styles.css')
+    return gulp.src('style.css')
     .pipe(cssnano())
     .pipe(gulp.dest('./'));
 });
