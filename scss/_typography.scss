@@ -1,3 +1,12 @@
 body {
   font-size: 16px; //Base REM.
 }
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    transition: all .7s ease;
+  }
+}
