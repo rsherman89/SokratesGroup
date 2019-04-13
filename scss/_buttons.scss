@@ -1,0 +1,10 @@
+.btn {
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &--primary {
+    background-color: $primary;
+    color: $light;
+  }
+}

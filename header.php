@@ -9,13 +9,12 @@
     <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
     <meta name="author" content="">
 
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
     <?php wp_head();?>
   </head>
 
@@ -30,7 +29,6 @@
           </div>
 
           <nav class="header__nav col">
-            <!-- <a class="blog-nav-item active" href="<?php echo get_home_url(); ?>">Home</a> -->
             <?php wp_list_pages( '&title_li=' ); ?>
           </nav>
 
@@ -47,8 +45,3 @@
     </div>
 
     <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-        <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-      </div>

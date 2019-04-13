@@ -2,9 +2,10 @@
   padding: 10px 0;
 
   &__nav {
+    font-weight: bold;
     text-transform: uppercase;
 
-    // This is a bad way of doing this. We should use BEM, but WP doesnt allow this.
+    // This is a bad way of doing this. We should use BEM classes, but WP doesnt allow this.
     li {
       display: inline-block;
       list-style-type: none;
@@ -34,6 +35,8 @@
   }
 
   .side-menu {
+    text-transform: uppercase;
+
     &__item {
       list-style: none;
     }
