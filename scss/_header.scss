@@ -1,3 +1,48 @@
-header{
-  
+.header {
+  padding: 10px 0;
+
+  &__nav {
+    font-weight: bold;
+    text-transform: uppercase;
+
+    // This is a bad way of doing this. We should use BEM classes, but WP doesnt allow this.
+    li {
+      display: inline-block;
+      list-style-type: none;
+      padding: 10px;
+      margin: 0 20px;
+    }
+
+    a {
+      color: $dark-medium;
+
+      &:hover {
+        color: $dark;
+      }
+    }
+  }
+
+  &__logo {
+    min-width: 120px;
+  }
+
+  a {
+    color: $dark-medium;
+
+    &:hover {
+      color: $dark;
+    }
+  }
+
+  .side-menu {
+    text-transform: uppercase;
+
+    &__item {
+      list-style: none;
+    }
+
+    &__link {
+      color: $primary;
+    }
+  }
 }

@@ -5,4 +5,4 @@ Description: A theme for SokratesGroup.
 Author: RadianWeb
 Author URI: http://radianweb.com.au
 Version: 1.0
-*/body{font-size:16px}
+*/body{font-size:16px;font-family:Roboto,sans-serif}a,a:hover{text-decoration:none}a:hover{transition:all .7s ease}.btn{padding:7px;text-align:center;text-transform:uppercase}.btn--primary{background-color:#fc0d1b;color:#fff}.header{padding:10px 0}.header__nav{font-weight:700;text-transform:uppercase}.header__nav li{display:inline-block;list-style-type:none;padding:10px;margin:0 20px}.header__nav a{color:#606060}.header__nav a:hover{color:#000}.header__logo{min-width:120px}.header a{color:#606060}.header a:hover{color:#000}.header .side-menu{text-transform:uppercase}.header .side-menu__item{list-style:none}.header .side-menu__link{color:#fc0d1b}
